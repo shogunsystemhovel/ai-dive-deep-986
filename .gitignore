@@ -1,0 +1,34 @@
+node_modules
+dist
+.astro
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# secrets / credentials — paranoia layer
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.kube/
+.config/
+secrets/
+private/
+
+# logs / editor / OS
+*.log
+.vscode
+.idea
+.cache
+Thumbs.db
+
+# vercel
+.vercel
+.turbo
+notes/
+_TODO/
+
+# local strategy / campaign docs — NEVER ship to the public repo
+AI Products/
